@@ -1,0 +1,7 @@
+tweepy~=4.5.0
+twitter~=1.19.3
+TwitterToReddit==0.1.4
+TWT==0.0.2
+requests~=2.27.1
+praw~=7.6.0
+python-twitter-v2
