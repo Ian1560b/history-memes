@@ -2,7 +2,7 @@ import b0t
 
 while b0t.active:
     try:
-        for post in b0t.subreddit.new(limit = 5):
+        for post in b0t.subreddit.hot(limit = 5):
             print(post.title, post.url)
             statuses = b0t.history_api.user_timeline(
                 count = 20,
